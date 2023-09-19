@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="icon" href="header-logo.jpg">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Greenios</title>
+      <!-- favicon -->
+      <link rel="icon" href="assets/image/logo-1.png">
+      <!-- Poppins -->
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+      <!-- Inter-font -->
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+      <!-- magnific-popup -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+      <!-- swiper-slider -->
+      <link rel="stylesheet"   href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+      <!-- normalize-css -->
+      <link rel="stylesheet" href="assets/css/normalize.css">
+      <!-- fontawesome -->
+      <link rel="stylesheet" href="assets/css/all.min.css">
+      <!-- bootstrap -->
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <!-- style-css -->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!-- responsive -->
+      <link rel="stylesheet" href="assets/css/responsive.css">
+   </head>
+   <body>
+
+   <!--pre_lodar -->
+   <div class="loder">
+         <div class="pl" id="preloader">
+            <svg class="pl__rings" viewBox="0 0 128 128" width="128px" height="128px">
+               <g fill="none" stroke-linecap="round" stroke-width="4">
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.3)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(180)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.3)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(180)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(180)">
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                  </g>
+               </g>
+            </svg>
+            <div class="pl__nucleus">
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+            </div>
+         </div>
+      </div>
+      <!-- end-preloder -->
+     
+      
+      <!-- Startr header-area   -->
+       <header class="header-area">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-lg-5 p-0">
+                  <nav class="header-left-menu menu">
+                     <ul>
+                        <li><a href="shopping.html">SHOP</a></li>
+                        <li><a href="recipes.html">RECIPES</a></li>
+                        <li><a href="buy.html">WHERE TO BUY</a></li>
+                        <li><a href="community.html">Gut - Brain 101</a></li>
+                     </ul>
+                  </nav>
+               </div>
+               <div class="col-lg-2"><div class="logo"><a href="index.html"><img src="assets/image/logo-2.png" alt="logo not found"></a></div></div>
+               <div class="col-lg-5 p-0">
+                  <nav class="header-right-menu menu">
+                     <ul>
+                        <li><a href="rewards.html">REWARDS</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                        <li><a href="faq.html">faq</a></li>
+                        <li><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                        <li><a href="#"><i class="fa-regular fa-circle-user"></i></a></li>
+                        
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+     <header class="header-area responsive-header-area">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-6"><div class="logo"><a href="index.html"><img src="assets/image/logo-2.png" alt="logo not found"></a></div></div>
+               <div class="col-6">
+                  <div class="menu-bars">
+                     <i class="fa-solid fa-bars"></i>
+                  </div>
+               </div>
+            </div>
+            <div class="reponsive-menu-area">
+               <div class="row">
+                  <div class="x-mark"><i class="fa-solid fa-xmark"></i></div>
+               </div>
+            <div class="row align-items-center menu-slide-up">
+               <div class="col-lg-6 p-0">
+                  <nav class="header-left-menu menu">
+                     <ul>
+                        <li><a href="#">SHOP</a></li>
+                        <li><a href="#">RECIPES</a></li>
+                        <li><a href="#">WHERE TO BUY</a></li>
+                        <li><a href="#">Gut - Brain 101</a></li>
+                        <li><a href="#">REWARDS</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">POPUPS</a></li>
+                        <li><a href="#">MERCH</a></li>
+                     </ul>
+                     <div class="responsive-header-media-icon">
+                        <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                        <a href="#"><i class="fa-regular fa-circle-user"></i></a>
+                     </div>
+                  </nav>
+               </div>
+      
+
+            </div>
+            </div>
+         </div>
+      </header>
+      <!-- End header-area -->
+      <!-- Start Banner-area -->
+     <section class="index-banner-area">
+         <div class="container">
+            <div class="col-lg-6">
+               <div class="index-banner-content">
+                  <p class="title">GREENIOS</p>
+                  <h1>Eat happily ever after with Greenios healthy, happy veggie foods.</h1>
+                  <div class="banner-btn">
+                     <a class="btn-1" href="#">SHOP NOW</a>
+                     <img src="assets/image/curved.png" alt="image not found">
+                  </div> 
+               </div>
+            </div>
+
+
+<!--             <div class="row">
+               <div class="col-lg-6 p-0">
+                  <div class="banner-left-container">
+
+   
+                  </div>
+               </div>
+               <div class="col-lg-6 p-0">
+                  <div class="banner-right-container">
+                     <div class="banner-image">
+                        <img src="assets/image/banner-img.png" alt="banner-image not found">
+                     </div>
+                  </div>
+               </div>
+            </div> -->
+         </div>
+
+      </section>
+      <div class="banner-images-responsive">
+         <div class="container-fluid p-0">
+
+            <div class="col-md-12">
+               <div class="banner-image">
+                  <img src="assets/image/index-image.png" alt="banner-image not found">
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- End Banner-area -->
+      <!-- Start introduction-area -->
+       <section class="introduction-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6">
+                  <div class="introduction-image">
+                     <img src="assets/image/intro.png" alt="image not-found">
+                  </div>
+               </div>
+               <div class="col-lg-6 intro-order">
+                  <div class="intro-content">
+                     <p class="title">INTRUDUCING</p>
+                     <h3>Greenios Goodbiotics ™</h3>
+                     <p>Greenios Goodbiotics ® are all-natural fermented plant based drinks infused with prebiotics, probiotics, and Ashwagandha to support a healthy immune and digestive system, mental and skin health. Enjoy these delicious drinks with your favorite Greenios food products for a healthy body and happy mind!</p>
+                     <div class="intro-btn">
+                        <a class="btn-2" href="#">SHOP GOODBIOTICS</a>
+                        <a class="btn-3" href="#">FIND IN STORE</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End introduction-area -->
+      <!-- Start Difference-area -->
+       <section class="difference-area">
+         <div class="container difference-background">
+            <div class="row">
+               <div class="col-12">
+                  <div class="difference-heading">
+                     <h2>The Greenios Difference</h2>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row grid-column">
+
+
+
+               <div class="col-12">
+                  <div class="different-item-content first-different-item-content">
+
+
+                     <div class="d-item d-item-1">
+                        <h5>Healthy</h5>
+                        <p>At Greenios we make nutrient dense foods that support healthy digestive support, immune support, brain and skin health.</p>
+                     </div>
+
+
+                   <div class="d-item d-item-3">
+                        <h5>Organic</h5>
+                        <p>Our foods are made using all-natural ingredients and free of preservatives, additives, colors and are non-GMO.</p>
+                     </div>
+                     
+
+
+                  </div>
+               </div>
+
+
+
+               <div class="col-12">
+                  <div class="different-item-image">
+                     <img src="assets/image/different.png" alt="image not-found">
+                  </div>
+               </div>
+
+
+               <div class="col-12">
+                  <div class="different-item-content second-different-item-content">
+
+
+
+                     <div class="d-item d-item-2">
+                        <h5>Mental Health Support </h5>
+                        <p>All of our foods are formulated using vitamins and minerals that promote healthy gut-brain axis to increase greater amounts of happiness and mental wellbeing. </p>
+                     </div>
+
+
+                     <div class="d-item d-item-4">
+                        <h5>Delicious</h5>
+                        <p>We craft our foods using a taste sensitivity technique that creates foods that promote emotional wellbeing and taste satisfaction.</p>
+                     </div>
+
+
+                  </div>
+               </div>
+
+
+
+
+            </div> 
+            
+         </div>
+
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-12">
+                  <div class="brand-heading">
+                     <h2>Greenios VS Similiar Brand</h2>
+                  </div>
+               </div>
+               <div class="row gx-5 gy-5 justify-content-center">
+                 
+                  <div class="col-lg-4 col-md-6">
+                     <div class="brand-item brand-item-1"> 
+                      <div class="angle-down">
+                         <i class="fa-solid fa-angle-down"></i>
+                      </div>
+                      <h5><span class="plus">+</span>50x</h5>
+                      <h6>Digestive Support <br> Than Similiar Brands</h6>
+                  </div>
+                  </div>
+                  
+                 
+                  <div class="col-lg-4 col-md-6">
+                     <div class="brand-item brand-item-2"> 
+                      <div class="angle-down">
+                         <i class="fa-solid fa-angle-down"></i>
+                      </div>
+                      <h5><span class="plus">+</span>20x</h5>
+                      <h6>Digestive Support <br> Than Similiar Brands</h6>
+                  </div>
+                  </div>
+                  
+
+                  <div class="col-lg-4 col-md-6">
+                     <div class="brand-item brand-item-1"> 
+                      <div class="angle-down">
+                         <i class="fa-solid fa-angle-down"></i>
+                      </div>
+                      <h5><span class="plus">+</span>100</h5>
+                      <h6>Digestive Support <br> Than Similiar Brands</h6>
+                  </div>
+                  </div>
+               </div>
+            </div>
+         </div>      
+      </section> 
+      <!-- End Difference-area -->
+      <!-- Start Greenios-plant-area -->
+      <section class="greenios-plant-area">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-lg-6">
+                  <div class="plant-content">
+                     <p class="title">INTRUDUCING</p>
+                     <h3>Greenios Plant Based Meats</h3>
+                     <p>Greenios plant based meats are infused with a healthy blend of prebiotics, Omega 3, and Ashwagandha to promote a healthy balance of immune health, digestive health, heart health, and mental health. Eat happily ever after in every bite. </p>
+                     <div class="plant-content-btn">
+                        <a class="btn-1" href="#">SHOP PLANT BASED MEATS</a>
+                        <a class="btn-2" href="#">FIND IN STORE</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="plant-image">
+                     <img src="assets/image/plant.png" alt="image not found">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End Greenios-plant-area -->
+      <!-- Start Product-area -->
+      <section class="our-product-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="our-product-heading">
+                     <h2>Our Products</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row gx-5 gy-5">
+               <div class="col-lg-3 col-6">
+                   <div class="product-item">
+                      <div class="product-image">
+                         <img src="assets/image/product-1.png" alt="image-not-found">
+                      </div>
+                        <p>Shop Fries and Sides </p>
+                         <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                   </div>
+               </div>
+               <div class="col-lg-3 col-6">
+                   <div class="product-item">
+                      <div class="product-image">
+                        <img src="assets/image/product-2.png" alt="image-not-found">
+                      </div>
+                        <p>Shop Plant Based Meats</p>
+                         <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                   </div>
+               </div>
+               <div class="col-lg-3 col-6">
+                   <div class="product-item">
+                      <div class="product-image">
+                         <img src="assets/image/product-3.png" alt="image-not-found">
+                      </div>
+                         <p>Shop Seasonings</p>
+                         <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                   </div>
+               </div>
+               <div class="col-lg-3 col-6">
+                   <div class="product-item">
+                      <div class="product-image">
+                        <img src="assets/image/product-4.png" alt="image-not-found">
+                      </div>
+                         <p>Shop Drinks</p>
+                         <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                   </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End Product-area -->
+
+      <!-- Start commitment-area -->
+      <section class="commitment-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="commit-heading">
+                     <h2>Greenios Commitment to Health and Happiness</h2>
+                     <p>At Greenios, we are committed to making foods that support healthy bodies and healthy minds. All of our foods are infused with our proprietary blend of Ashwagandha, Vegan omega 3, Prebiotics and Probiotics to promote optimal health and mental health support.</p>
+                  </div>
+               </div>
+               <div class="col-12 commitment-content-image">
+                  <div class="commitment-contents">
+                     <div class="commit-content commit-content-1">
+                        <h5><span><i class="fa-solid fa-plus"></i></span>Ashwagandha</h5>
+                        <p>We use Ashwagandha for its calming and stress relieving benefits. </p>
+                     </div>
+                     <div class="commit-content commit-content-2">
+                        <div class="float-left-stystem">
+                           <h5><span><i class="fa-solid fa-plus"></i></span>Vegan Omega 3</h5>
+                           <p>We love vegan omega 3 for its healthy brain, heart, and immune support…oh, and did we mention the skin? Omega 3 prevents premature skin aging!</p>
+                        </div> 
+                        <div class="commit-image commit-image-oreder">
+                           <img src="assets/image/greenios.png" alt="image not found">
+                           <img src="assets/image/greenios-1.png" alt="image not found">
+                        </div>                                
+
+                     </div>
+
+                     <div class="commit-content commit-content-3">
+                        <h5><span><i class="fa-solid fa-plus"></i></span>Prebiotics and Probiotics</h5>
+                        <p>Many of our foods and beverages are deliciously crated with prebiotics and probiotics to support healthy digestion and immune function. </p>
+                     </div>
+                  </div>
+                  <div class="commit-btn">
+                        <a class="btn-2" href="#">SHOP PLANT BASED MEATS</a>
+                        <a class="btn-3" href="#">FIND IN STORE</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section> 
+      <!-- End commitment-area -->
+      <!-- Start Greenios-resipes-area -->
+      <section class="greenios-resipes-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="resipes-heading">
+                     <h2>Our Best Greenios Recipes</h2>
+                  </div>
+               </div>
+            <div class="row"> 
+               <div class="col-lg-7">
+                  <div class="resipes-heading-2">
+                     <h4>Eat happily ever after with Greenios healthy, happy recipes.</h4>
+                  </div>
+               </div>
+               <div class="col-lg-5">
+                  <div class="resipes-menu">
+                     <ul>
+                        <li><a href="#"><span>Cajun Cauliflower Tacos</span><span><i class="fa-solid fa-arrow-right"></i></span></a></li>
+                        <li><a href="#"><span>Mamacita Veggie Burger</span><span><i class="fa-solid fa-arrow-right"></i></span></a></li>
+                        <li><a href="#"><span>Tika Masala Carrot Dog</span><span><i class="fa-solid fa-arrow-right"></i></span></a></li>
+                        <li><a href="#"><span>Cauliflower Scampi Pasta</span><span><i class="fa-solid fa-arrow-right"></i></span></a></li>
+                        <li><a href="#"><span>Greenios Vegan Cheese Burger</span><span><i class="fa-solid fa-arrow-right"></i></span></a></li>
+                        <li><a href="#"><span>Nicole’s loaded Sweet Potato Fries</span><span><i class="fa-solid fa-arrow-right"></i></span></a></li>
+                        <li><a href="#"><span>Alan’s Curry Jackfruit Burger</span><span><i class="fa-solid fa-arrow-right"></i></span></a></li>
+                        <li><a href="#"><span>All Smiles Barbecue Burger</span><span><i class="fa-solid fa-arrow-right"></i></span></a></li>
+                        <li><a href="#"><span>Love & Happiness Salad</span><span><i class="fa-solid fa-arrow-right"></i></span></a></li>
+                        <li><a href="#"><span>Made With Love Carrot Dog</span><span><i class="fa-solid fa-arrow-right"></i></span></a></li>
+                     </ul>
+                  </div>
+                  <div class="resipes-btn">
+                     <a  class="btn-1" href="#">SEE ALL RECIPES</a>
+                  </div>
+               </div>
+            </div>    
+            </div>
+         </div>
+      </section> 
+      <!-- End Greenios-resipes -->
+      <!-- Start Eatatgreenios-area -->
+       <section class="eatatgreenios-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-12 eat-heading">
+                  <h2>Follow Us On <span>@eatatgreenios</span></h2>
+                  <h5>Don’t forget to tag us!</h5>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="eatatgreenios-slider">
+                       <div class="swiper eatat-slider">
+                         <div class="swiper-wrapper">
+                           <div class="swiper-slide eat-image"><img src="assets/image/eat-1.png" alt="image not found"></div>
+                           <div class="swiper-slide eat-image"><img src="assets/image/eat-2.png" alt="image not found"></div>
+                           <div class="swiper-slide eat-image"><img src="assets/image/eat-3.png" alt="image not found"></div>
+                           <div class="swiper-slide eat-image"><img src="assets/image/eat-1.png" alt="image not found"></div>
+                           <div class="swiper-slide eat-image"><img src="assets/image/eat-2.png" alt="image not found"></div>
+                           <div class="swiper-slide eat-image"><img src="assets/image/eat-3.png" alt="image not found"></div>
+                           <div class="swiper-slide eat-image"><img src="assets/image/eat-1.png" alt="image not found"></div>
+                           <div class="swiper-slide eat-image"><img src="assets/image/eat-2.png" alt="image not found"></div>
+                           <div class="swiper-slide eat-image"><img src="assets/image/eat-3.png" alt="image not found"></div>
+                         </div>
+                       </div>
+                         <div class="swiper-button-next"></div>
+                         <div class="swiper-button-prev"></div>
+
+                  </div>
+               </div>
+               <div class="col-12 signup">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <h5>Sign Up to The Greenios Happy Club on Facebook</h5>
+               </div>
+            </div>                              
+            
+         </div>
+      </section>    
+      <!-- End Eatatgreenios-area -->
+      <!-- Start Subscribe-area -->
+       <section class="subscribe-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="subscribe-heading">
+                     <h5>Let us become your Happy Place!</h5>
+                     <p>Sign up to recieve exclusive offers, delicious recipes, discounts and so much more!</p>
+                  </div>
+               </div>
+               <div class="col-12 p-0">
+                  
+                     <form action="">
+                        <div class="subscribe-form">
+                         <input type="email" placeholder="Your Email">
+                         <button type="submit">SUBSCRIBE <span><i class="fa-solid fa-angle-right"></i></span></button>
+                         </div>
+                     </form>
+                  
+               </div>
+            </div>
+         </div>
+      </section>      
+      <!-- End Subscribe-area -->
+      <!-- new section -->
+      <section class="new">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- new section -->
+      <!-- Start Footer-area -->
+      <footer class="footer-area">
+         <div class="footer-top-area">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-9 column-count-style">
+                     <div class="footer-menu footer-menu-1">
+                         <ul>
+                            <li><a href="#">Plant Based Meats</a></li>
+                            <li><a href="#">Fries</a></li>
+                            <li><a href="#">Sides</a></li>
+                            <li><a href="#">Seasonings</a></li>
+                            <li><a href="#">Drinks</a></li>
+                            <li><a href="#">Recipes</a></li>
+                            <li><a href="#">Cooking Tips</a></li>
+                            <li><a href="#">Where to Buy</a></li>
+                            <li><a href="#">Wholesale</a></li>
+                            <li><a href="#">Host a Popup</a></li>
+                         </ul>
+                     </div>
+                     <div class="footer-menu footer-menu-2">
+                         <ul>
+                            <li><a href="#">Rewards Program</a></li>
+                            <li><a href="#">Affiliate Program</a></li>
+                            <li><a href="#">Ambassador Program</a></li>
+                            <li><a href="#">My Account Login</a></li>
+                            <li><a href="#">Track and Order</a></li>
+                            <li><a href="#">Manage Subscriptions</a></li>
+                            <li><a href="#">FAQ’s</a></li>
+                            <li><a href="#">Contact Us</a></li>
+
+
+                         </ul>
+                     </div>
+                     <div class="footer-menu footer-menu-3">
+                         <ul>
+                            <li><a href="#">Request a Local Retailer</a></li>
+                            <li><a href="#">Refer a Friend</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms and Condition</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">CCPA Compliance</a></li>
+                         </ul>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="footer-social">
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+         <div class="footer-bottom-area">
+            <div class="container">
+               <div class="row justify-content-center ">
+                  <div class="col-lg-3"><div class="copy-write"><a href="#">© Greenios,  Inc. 202</a></div></div>
+                  <div class="col-lg-9 fotter-justify ">
+                     <div class="footer-bottom-menu">
+                        <ul>
+                           <li><a href="#">Contact Us</a></li>
+                           <li><a href="#">Wholesale</a></li>
+                           <li><a href="#">Terms & Conditions</a></li>
+                           <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>                      
+      <!-- End Footer-area -->
+
+
+
+
+
+      <script src="assets/js/jquery.js"></script>
+      <!-- preloder.js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <!-- counter-js -->
+      <script src="assets/js/jquery-1.7.1.min.js"></script>
+      <script src="assets/js/waypoints.js"></script>
+      <script src="assets/js/jquery.counterup.min.js"></script>
+      <!-- bootstrap.js -->
+      <script src="assets/js/bootstrap.min.js"></script>
+      <!-- popper-js -->
+      <script src="assets/js/popper.min.js"></script>
+      <!-- magnific.js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+      <!-- swiper.js -->
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+      <!-- mixitup.js -->
+      <script src="assets/js/mixitup.min.js"></script>
+      <script src="assets/js/custom.js"></script>
+   </body>
+</html>

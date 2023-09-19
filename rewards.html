@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="icon" href="header-logo.jpg">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>rewards</title>
+      <!-- favicon -->
+      <link rel="icon" href="assets/image/logo-1.png">
+      <!-- Poppins -->
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+      <!-- Inter-font -->
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+      <!-- magnific-popup -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+      <!-- swiper-slider -->
+      <link rel="stylesheet"   href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+      <!-- normalize-css -->
+      <link rel="stylesheet" href="assets/css/normalize.css">
+      <!-- fontawesome -->
+      <link rel="stylesheet" href="assets/css/all.min.css">
+      <!-- bootstrap -->
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <!-- style-css -->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!-- responsive -->
+      <link rel="stylesheet" href="assets/css/responsive.css">
+   </head>
+   <body>
+      <!--pre_lodar -->
+        <div class="loder">
+         <div class="pl" id="preloader">
+            <svg class="pl__rings" viewBox="0 0 128 128" width="128px" height="128px">
+               <g fill="none" stroke-linecap="round" stroke-width="4">
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.3)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(180)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.3)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(180)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(180)">
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                  </g>
+               </g>
+            </svg>
+            <div class="pl__nucleus">
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+            </div>
+         </div>
+         </div> 
+      <!-- end-preloder -->
+
+      <!-- Startr header-area   -->
+      <header class="header-area">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-lg-5 p-0">
+                  <nav class="header-left-menu menu">
+                     <ul>
+                        <li><a href="shopping.html">SHOP</a></li>
+                        <li><a href="recipes.html">RECIPES</a></li>
+                        <li><a href="affiliate.html">affiliate</a></li>
+                        <li><a href="community.html">Gut - Brain 101</a></li>
+                     </ul>
+                  </nav>
+               </div>
+               <div class="col-lg-2">
+                  <div class="logo"><a href="index.html"><img src="assets/image/logo-2.png" alt="logo not found"></a></div>
+               </div>
+               <div class="col-lg-5 p-0">
+                  <nav class="header-right-menu menu">
+                     <ul>
+                        <li><a href="rewards.html">REWARDS</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                        <li><a href="faq.html">faq</a></li>
+                        <li><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                        <li><a href="#"><i class="fa-regular fa-circle-user"></i></a></li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+      <header class="header-area responsive-header-area">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-6">
+                  <div class="logo"><a href="index.html"><img src="assets/image/logo-2.png" alt="logo not found"></a></div>
+               </div>
+               <div class="col-6">
+                  <div class="menu-bars">
+                     <i class="fa-solid fa-bars"></i>
+                  </div>
+               </div>
+            </div>
+            <div class="reponsive-menu-area">
+               <div class="row">
+                  <div class="x-mark"><i class="fa-solid fa-xmark"></i></div>
+               </div>
+               <div class="row align-items-center menu-slide-up">
+                  <div class="col-lg-6 p-0">
+                     <nav class="header-left-menu menu">
+                        <ul>
+                           <li><a href="#">SHOP</a></li>
+                           <li><a href="#">RECIPES</a></li>
+                           <li><a href="#">WHERE TO BUY</a></li>
+                           <li><a href="#">Gut - Brain 101</a></li>
+                           <li><a href="#">REWARDS</a></li>
+                           <li><a href="#">ABOUT</a></li>
+                           <li><a href="#">POPUPS</a></li>
+                           <li><a href="#">MERCH</a></li>
+                        </ul>
+                        <div class="responsive-header-media-icon">
+                           <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                           <a href="#"><i class="fa-regular fa-circle-user"></i></a>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- End header-area -->
+
+      <div class="rewards-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12 rewards-area-space">
+                  <div class="about-banner rewards-banner">
+                     <div class="banner-title"><p>GREENIOS</p></div>
+                     <h2>Rewards</h2>
+                     <p>As a rewards member, you'll get closer to earning exclusive rewards every time you shop.</p>
+                     <div class="rewards-banner-btn">
+                        <a class="btn-2" href="#">Sign Up</a>
+                        <a class="btn-1" href="#">Sign In</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="it-work-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="it-work-heading">
+                     <h2>How it Works</h2>
+                  </div>
+               </div>
+            </div>   
+            <div class="row gx-5 gy-5 justify-content-center">
+
+                  <div class="col-lg-4 col-md-6">
+                     <div class="join-start">
+                        <span>1</span>
+                        <h5>Join</h5>
+                        <p>Join and start earning rewards today. </p>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6">
+                     <div class="join-start">
+                        <span>2</span>
+                        <h5>Earn Points</h5>
+                        <p>Join and start earning rewards today. </p>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6">
+                     <div class="join-start">
+                        <span>3</span>
+                        <h5>Redeem Points</h5>
+                        <p>Join and start earning rewards today. </p>
+                     </div>
+                  </div>
+            </div>
+            
+         </div>
+      </div>
+
+      <div class="point-sign-area">
+         <div class="container">
+            <div class="row gx-5 gy-5">
+
+               <div class="col-lg-4 col-md-6">
+                  <div class="point-sign">
+                     <h5>10 Points</h5>
+                     <p>Already a member</p>
+                     <div class="hover-point-sign">
+                        <a class="wobble-btn" href="#">Sign Up</a>
+                        <p>Already a member? <a href="#">Log In</a></p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="point-sign">
+                     <h5>300 Points</h5>
+                     <p>Make 3 Subscription Purchases</p>
+                     <div class="hover-point-sign">
+                        <a class="wobble-btn" href="#">Sign Up</a>
+                        <p>Already a member? <a href="#">Log In</a></p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="point-sign">
+                     <h5>10 Points</h5>
+                     <p>$1 Spent on First Subscription Order</p>
+                                          <div class="hover-point-sign">
+                        <a class="wobble-btn" href="#">Sign Up</a>
+                        <p>Already a member? <a href="#">Log In</a></p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="point-sign">
+                     <h5>50 Points</h5>
+                     <p>Create an Account</p>
+                                          <div class="hover-point-sign">
+                        <a class="wobble-btn" href="#">Sign Up</a>
+                        <p>Already a member? <a href="#">Log In</a></p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="point-sign">
+                     <h5>100 Points</h5>
+                     <p>Happy Birthday</p>
+                                          <div class="hover-point-sign">
+                        <a class="wobble-btn" href="#">Sign Up</a>
+                        <p>Already a member? <a href="#">Log In</a></p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="point-sign">
+                     <h5>50 Points</h5>
+                     <p>Leave a Review</p>
+                                          <div class="hover-point-sign">
+                        <a class="wobble-btn" href="#">Sign Up</a>
+                        <p>Already a member? <a href="#">Log In</a></p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="point-sign">
+                     <h5>50 Points</h5>
+                     <p>Add Photo in Review</p>
+                                          <div class="hover-point-sign">
+                        <a class="wobble-btn" href="#">Sign Up</a>
+                        <p>Already a member? <a href="#">Log In</a></p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="point-sign">
+                     <h5>10 Points</h5>
+                     <p>Follow us on Instagram</p>
+                                          <div class="hover-point-sign">
+                        <a class="wobble-btn" href="#">Sign Up</a>
+                        <p>Already a member? <a href="#">Log In</a></p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="point-sign">
+                     <h5>10 Points</h5>
+                     <p>Follow us on Facebook</p>
+                                          <div class="hover-point-sign">
+                        <a class="wobble-btn" href="#">Sign Up</a>
+                        <p>Already a member? <a href="#">Log In</a></p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-12 col-md-6">
+                  <div class="point-sign">
+                     <h5>10 Points</h5>
+                     <p>Share on Facebook</p>
+                                          <div class="hover-point-sign">
+                        <a class="wobble-btn" href="#">Sign Up</a>
+                        <p>Already a member? <a href="#">Log In</a></p>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>     
+
+      <!-- start earn-area -->
+      <div class="support-earn-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="support-earn-heading">
+                     <h2>Your Support Earns You Even More!</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row gx-5 gy-5 earn-space justify-content-center">
+               <div class="col-lg-4 col-md-6">
+                   <div class="earn-area">
+                      <div class="earn-model">
+                         <h5>Happy</h5>
+                         <p>Spend $0 - $99</p>
+                      </div>
+                      <div class="earn-menu">
+                         <ul>
+                            <li><a href="#"><i class="fa-solid fa-check-circle"></i> <span>1x Multiplier</span></a></li>
+                            <li><a href="#"><i class="fa-solid fa-check-circle"></i> <span>Free Standard Shipping</span></a></li>
+                         </ul>
+                      </div>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                   <div class="earn-area">
+                      <div class="earn-model">
+                         <h5>Happiest</h5>
+                         <p>Spend $100 - $299</p>
+                      </div>
+                      <div class="earn-menu">
+                         <ul>
+                            <li><a href="#"><i class="fa-solid fa-check-circle"></i> <span>1.25x Multiplier </span></a></li>
+                            <li><a href="#"><i class="fa-solid fa-check-circle"></i> <span>Free Standard Shipping</span></a></li>
+                            <li><a href="#"><i class="fa-solid fa-check-circle"></i> <span>Early access to sales</span></a></li>
+                            <li><a href="#"><i class="fa-solid fa-check-circle"></i> <span>Early access to new products</span></a></li>
+                         </ul>
+                      </div>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                   <div class="earn-area">
+                      <div class="earn-model">
+                         <h5>Happier</h5>
+                         <p>Spend $300+</p>
+                      </div>
+                      <div class="earn-menu">
+                         <ul>
+                            <li><a href="#"><i class="fa-solid fa-check-circle"></i> <span>1.5x Multiplier</span></a></li>
+                            <li><a href="#"><i class="fa-solid fa-check-circle"></i> <span>Free Standard Shipping</span></a></li>
+                            <li><a href="#"><i class="fa-solid fa-check-circle"></i> <span>Early access to sales</span></a></li>
+                            <li><a href="#"><i class="fa-solid fa-check-circle"></i> <span>Early access to new products</span></a></li>
+                            <li><a href="#"><i class="fa-solid fa-check-circle"></i> <span>Exclusive offers</span></a></li>
+                         </ul>
+                      </div>
+                   </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end earn-area -->
+      <!-- start redeem-area -->
+      <div class="redeem-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="redeem-heading">
+                     <h2>Redeem for Discounts</h2>
+                     <p>Redeeming your points is easy! <br> Simply add your points for discount at check out. </p>
+                     <div class="every-btn">
+                        <span>Every 100 points = $5</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="discount-redeem">
+
+                     <div class="discount">
+                        <span>$5</span>
+                        <span>100 Points</span>
+                     </div>
+
+                     <div class="discount">
+                        <span>$10</span>
+                        <span>200 Points</span>
+                     </div>
+  
+                     <div class="discount">
+                        <span>$15</span>
+                        <span>300 Points</span>
+                     </div>
+  
+                     <div class="discount">
+                        <span>$20</span>
+                        <span>400 Points</span>
+                     </div>
+  
+                     <div class="discount">
+                        <span>$25</span>
+                        <span>500 Points</span>
+                     </div>
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end redeem-area -->
+      <div class="giv-get-area">
+         <div class="container-fluid p-0">
+            <div class="row">
+               <div class="col-lg-6">
+                  <div class="giv-image">
+                     <img src="assets/image/giv.png" alt="image not found">
+                  </div>
+               </div>
+               <div class="col-lg-6  giv-get-above">
+                  <div class="giv-content">
+                     <div class="give-title">
+                        <p>Refer a Friend</p>
+                     </div>
+                     <div class="giv-heading">
+                        <h2>Give $10, Get $10</h2>
+                        <p>Refer a friend and you’ll both get <br> $10 off any purchase.</p>
+                     </div>
+                     <div class="get-email-area">
+                        <form action="">
+                           <input type="email" placeholder="Your Email" class="form-control">
+                           <input type="submit" value="Start Earning" class="btn-3">
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>                        
+      <!-- Start Subscribe-area -->
+      <section class="subscribe-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="subscribe-heading">
+                     <h5>Let us become your Happy Place!</h5>
+                     <p>Sign up to recieve exclusive offers, delicious recipes, discounts and so much more!</p>
+                  </div>
+               </div>
+               <div class="col-12 p-0">
+                  <form action="">
+                     <div class="subscribe-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit">SUBSCRIBE <span><i class="fa-solid fa-angle-right"></i></span></button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End Subscribe-area -->
+      <!-- new section -->
+      <section class="new">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- new section -->
+      <!-- Start Footer-area -->
+      <footer class="footer-area">
+         <div class="footer-top-area">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-9 column-count-style">
+                     <div class="footer-menu footer-menu-1">
+                        <ul>
+                           <li><a href="#">Plant Based Meats</a></li>
+                           <li><a href="#">Fries</a></li>
+                           <li><a href="#">Sides</a></li>
+                           <li><a href="#">Seasonings</a></li>
+                           <li><a href="#">Drinks</a></li>
+                           <li><a href="#">Recipes</a></li>
+                           <li><a href="#">Cooking Tips</a></li>
+                           <li><a href="#">Where to Buy</a></li>
+                           <li><a href="#">Wholesale</a></li>
+                           <li><a href="#">Host a Popup</a></li>
+                        </ul>
+                     </div>
+                     <div class="footer-menu footer-menu-2">
+                        <ul>
+                           <li><a href="#">Rewards Program</a></li>
+                           <li><a href="#">Affiliate Program</a></li>
+                           <li><a href="#">Ambassador Program</a></li>
+                           <li><a href="#">My Account Login</a></li>
+                           <li><a href="#">Track and Order</a></li>
+                           <li><a href="#">Manage Subscriptions</a></li>
+                           <li><a href="#">FAQ’s</a></li>
+                           <li><a href="#">Contact Us</a></li>
+                        </ul>
+                     </div>
+                     <div class="footer-menu footer-menu-3">
+                        <ul>
+                           <li><a href="#">Request a Local Retailer</a></li>
+                           <li><a href="#">Refer a Friend</a></li>
+                           <li><a href="#">Press</a></li>
+                           <li><a href="#">Privacy Policy</a></li>
+                           <li><a href="#">Terms and Condition</a></li>
+                           <li><a href="#">Terms of Service</a></li>
+                           <li><a href="#">CCPA Compliance</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="footer-social">
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-bottom-area">
+            <div class="container">
+               <div class="row justify-content-center ">
+                  <div class="col-lg-3">
+                     <div class="copy-write"><a href="#">© Greenios,  Inc. 202</a></div>
+                  </div>
+                  <div class="col-lg-9 fotter-justify ">
+                     <div class="footer-bottom-menu">
+                        <ul>
+                           <li><a href="#">Contact Us</a></li>
+                           <li><a href="#">Wholesale</a></li>
+                           <li><a href="#">Terms & Conditions</a></li>
+                           <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- End Footer-area -->
+      <script src="assets/js/jquery.js"></script>
+      <!-- preloder.js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <!-- counter-js -->
+      <script src="assets/js/jquery-1.7.1.min.js"></script>
+      <script src="assets/js/waypoints.js"></script>
+      <script src="assets/js/jquery.counterup.min.js"></script>
+      <!-- bootstrap.js -->
+      <script src="assets/js/bootstrap.min.js"></script>
+      <!-- popper-js -->
+      <script src="assets/js/popper.min.js"></script>
+      <!-- magnific.js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+      <!-- mixitup -->
+      <script src="assets/js/mixitup.min.js"></script>
+      <script src="assets/js/first/custom.js"></script>
+      <script src="assets/js/2nd/custom.js"></script>
+      <!-- swiper.js -->
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+      <script src="assets/js/custom.js"></script>
+   </body>
+</html>

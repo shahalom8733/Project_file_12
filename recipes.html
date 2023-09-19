@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="icon" href="header-logo.jpg">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Recipes</title>
+      <!-- favicon -->
+      <link rel="icon" href="assets/image/logo-1.png">
+      <!-- Poppins -->
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+      <!-- Inter-font -->
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+      <!-- magnific-popup -->
+      <link rel="stylesheet" href="assets/css/magnific-popup.css">
+      <!-- swiper-slider -->
+      <link rel="stylesheet"   href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+      <!-- normalize-css -->
+      <link rel="stylesheet" href="assets/css/normalize.css">
+      <!-- fontawesome -->
+      <link rel="stylesheet" href="assets/css/all.min.css">
+      <!-- bootstrap -->
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <!-- style-css -->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!-- responsive -->
+      <link rel="stylesheet" href="assets/css/responsive.css">
+   </head>
+   <body>
+
+   <!--pre_lodar -->
+    <div class="loder">
+         <div class="pl" id="preloader">
+            <svg class="pl__rings" viewBox="0 0 128 128" width="128px" height="128px">
+               <g fill="none" stroke-linecap="round" stroke-width="4">
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.3)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(180)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.3)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(180)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(180)">
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                  </g>
+               </g>
+            </svg>
+            <div class="pl__nucleus">
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+            </div>
+         </div>
+      </div> 
+      <!-- end-preloder -->
+ 
+      
+      <!-- Startr header-area   -->
+       <header class="header-area">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-lg-5 p-0">
+                  <nav class="header-left-menu menu">
+                     <ul>
+                        <li><a href="shopping.html">SHOP</a></li>
+                        <li><a href="recipes.html">RECIPES</a></li>
+                        <li><a href="buy.html">WHERE TO BUY</a></li>
+                        <li><a href="community.html">Gut - Brain 101</a></li>
+                     </ul>
+                  </nav>
+               </div>
+               <div class="col-lg-2"><div class="logo"><a href="index.html"><img src="assets/image/logo-2.png" alt="logo not found"></a></div></div>
+               <div class="col-lg-5 p-0">
+                  <nav class="header-right-menu menu">
+                     <ul>
+                        <li><a href="rewards.html">REWARDS</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                        <li><a href="faq.html">faq</a></li>
+                        <li><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                        <li><a href="#"><i class="fa-regular fa-circle-user"></i></a></li>
+                        
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+         <header class="header-area responsive-header-area">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-6"><div class="logo"><a href="index.html"><img src="assets/image/logo-2.png" alt="logo not found"></a></div></div>
+               <div class="col-6">
+                  <div class="menu-bars">
+                     <i class="fa-solid fa-bars"></i>
+                  </div>
+               </div>
+            </div>
+            <div class="reponsive-menu-area">
+               <div class="row">
+                  <div class="x-mark"><i class="fa-solid fa-xmark"></i></div>
+               </div>
+            <div class="row align-items-center menu-slide-up">
+               <div class="col-lg-6 p-0">
+                  <nav class="header-left-menu menu">
+                     <ul>
+                        <li><a href="#">SHOP</a></li>
+                        <li><a href="#">RECIPES</a></li>
+                        <li><a href="#">WHERE TO BUY</a></li>
+                        <li><a href="#">Gut - Brain 101</a></li>
+                        <li><a href="#">REWARDS</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">POPUPS</a></li>
+                        <li><a href="#">MERCH</a></li>
+                     </ul>
+                     <div class="responsive-header-media-icon">
+                        <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                        <a href="#"><i class="fa-regular fa-circle-user"></i></a>
+                     </div>
+                  </nav>
+               </div>
+
+            </div>
+            </div>
+         </div>
+      </header>
+      <!-- End header-area -->
+
+      <div class="recipes-banner-area">
+         <div class="container">
+            <div class="row gx-5 gy-5">
+               <div class="col-lg-6">
+                  <div class="recipes-banner-image">
+                     <div class="swiper recipes-slider">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                               <div class="recipes-image">
+                                  <img src="assets/image/recipes.png" alt="image not found">
+                               </div>
+                           </div>
+                           <div class="swiper-slide">
+                               <div class="recipes-image">
+                                  <img src="assets/image/recipes.png" alt="image not found">
+                               </div>
+                           </div>
+                           <div class="swiper-slide">
+                               <div class="recipes-image">
+                                  <img src="assets/image/recipes.png" alt="image not found">
+                               </div>
+                           </div>
+                        </div>
+                     </div>
+                        <div class="swiper-pagination"></div>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="cauliflower-area">
+                     <div class="couli-heading">
+                        <h5>Cauliflower Scampi</h5>.
+                        <div class="cauli-share">
+                           <div class="share-area">
+                           <p>Share : </p>
+                           <div class="share">
+                              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                              <a href="#"><i class="fa-brands fa-tumblr"></i></a>
+                              <a href="#"><i class="fa-solid fa-link"></i></a>
+                              <a href="#"><i class="fa-solid fa-print"></i></a>
+                           </div>
+                        </div>
+                        </div>
+                     </div>
+                     <div class="cook-time">
+                        <p>Cook Time: 1 Hour <br> Servings: 4 <br> Ingredients: 8</p>
+                     </div>
+                     <div class="helth-stress">
+                        <div class="stress-title">
+                           <h6>Health Benefits</h6>
+
+                           <ul>
+                              <li><span><i class="fa-solid fa-circle"></i></span>Ashwagandha improves mood and stress</li>
+                              <li><span><i class="fa-solid fa-circle"></i></span>Prebiotics support a healthy gut and immune system</li>
+                              <li><span><i class="fa-solid fa-circle"></i></span>Omega 3’s promote a healthy brain and  cardiovascular system </li>
+                           </ul>
+                        </div>
+                     </div>         
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>      
+      <div class="ingredients-area">
+         <div class="container">
+
+
+            <div class="row direction-space">
+               <div class="col-lg-12">
+                  <h5>Ingredients</h5>
+               </div>
+               <div class="col-lg-6">
+                  <div class="stress-title">
+
+                     <ul>
+                        <li><span><i class="fa-solid fa-circle"></i></span>1 box Banza Cascatelli </li>
+                        <li><span><i class="fa-solid fa-circle"></i></span>1½ cups tightly packed basil leaves, plus additional for garnish</li>
+                        <li><span><i class="fa-solid fa-circle"></i></span>½ cup tightly packed kale leaves, stems removed</li>
+                        <li><span><i class="fa-solid fa-circle"></i></span>¼ cup walnuts, plus extra for garnish </li>
+                        <li><span><i class="fa-solid fa-circle"></i></span>1 garlic clove</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-6"> 
+                  <div class="stress-title">
+                     <ul>
+                        <li><span><i class="fa-solid fa-circle"></i></span>½ cup olive oil</li>
+                        <li><span><i class="fa-solid fa-circle"></i></span>½ cup grated Parmesan, plus extra for garnis</li>
+                        <li><span><i class="fa-solid fa-circle"></i></span>¼ cup whole milk ricotta or mascarpone</li>
+                        <li><span><i class="fa-solid fa-circle"></i></span>Juice of 1 lemon</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+
+            
+            <div class="row direction-space">
+               <div class="col-lg-12">
+                  <h5>Directions</h5>
+               </div>
+               <div class="col-lg-12">
+                  <div class="stress-title wind-title">
+
+                     <ul>
+                        <li><span>1</span>Blanch Greens: Bring a large pot of water to a boil. Season generously with salt. Add basil and kale leaves, and cook for 10 seconds, or until bright green in color. Remove with tongs or a strainer, reserving water for next step. Rinse under cold water until cool, then squeeze out excess water.</li>
+                        <li><span>2</span>Cook Banza: Add Banza Cascatelli to boiling water and cook according to package directions. Strain pasta with cold water and set aside.</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+
+
+            <div class="row direction-space tips-padding">
+               <div class="col-lg-12">
+                  <h5>Tips</h5>
+               </div>
+               <div class="col-lg-12">
+                  <div class="stress-title">
+
+                     <ul>
+                        <li><span><i class="fa-solid fa-circle"></i></span>Note: this is meant to be served cold.</li>
+                        <li><span><i class="fa-solid fa-circle"></i></span>Not into walnuts? Sub almonds, hazelnuts, peanuts, pepitas, or sunflower seeds—or a mixture of several varieties. </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+
+
+         </div>
+      </div>   
+
+
+
+
+      <div class="shop-select">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <h2>Shop Ingredients</h2>
+               </div>
+            </div>
+            <div class="row gx-5 gy-5 justify-content-center">
+
+               <div class="col-lg-4 col-md-6">
+                   <div class="shop-check">
+                      <div class="cate-item">
+                           <div class="cat-item-image">
+
+                              <div class="cat-check">
+                                 <label class="checkbox" for="cat-1">
+                                       <input type="checkbox" name="color" value="cat-1" id="cat-1">
+                                       <span class="checkmark"></span>
+                                  </label>
+                              </div>
+                              <img src="assets/image/banner-img.png" alt="image not found">
+                           </div>
+                           <p>Prebiotic Veggie Burger Patties</p>
+                           <h6>$8.99</h6>
+                        </div>
+                   </div>
+               </div>
+               
+               <div class="col-lg-4 col-md-6">
+                   <div class="shop-check">
+                      <div class="cate-item">
+                           <div class="cat-item-image">
+
+                              <div class="cat-check">
+                                 <label class="checkbox" for="cat-2">
+                                       <input type="checkbox" name="color" value="cat-2" id="cat-2">
+                                       <span class="checkmark"></span>
+                                  </label>
+                              </div>
+                              <img src="assets/image/add-support.png" alt="image not found">
+                           </div>
+                           <p>Cajun and Crinkled Sweet Potato Fries</p>
+                           <h6>$4.99</h6>
+                        </div>
+                   </div>
+               </div>
+               
+               <div class="col-lg-4 col-md-6">
+                   <div class="shop-check">
+                      <div class="cate-item">
+                           <div class="cat-item-image">
+
+                              <div class="cat-check">
+                                 <label class="checkbox" for="cat-3">
+                                       <input type="checkbox" name="color" value="cat-3" id="cat-3">
+                                       <span class="checkmark"></span>
+                                  </label>
+                              </div>
+                              <img src="assets/image/cat-4.png" alt="image not found">
+                           </div>
+                           <p>Vegetable Tika <br> Masala Chili</p>
+                           <h6>$9.99</h6>
+                        </div>
+                   </div>
+               </div>
+
+
+
+            </div>
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="vaget-btn">
+                     <a class="btn-3" href="#">ADD TO CHART</a>
+                  </div>
+               </div>
+            </div>      
+         </div>
+      </div> 
+
+
+    <section class="discover-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="dis-heading">
+                     <h2>Discover more of  Our Healthy Happy Recipes!</h2>
+                  </div>
+               </div>
+           </div>
+            <div class="row gx-5 gy-5 justify-content-center">
+               <div class="col-lg-4 col-md-6">
+                  <div class="mixit-item">
+                     <div class="mixitup-image">
+                        <img src="assets/image/m-7.png" alt="image not found">
+                     </div>
+                     <div class="recep">
+                        <p>OTHER</p>
+                        <p>February 24, 2022</p>
+                     </div>
+                     <div class="recep-heading">
+                        <h5>Lectus iaculis ut viverra at</h5>
+                        <p>A feugiat orci tellus posuere. Consectetur habitant metus pretium sit. Sit sodales nullam eu aliquam...</p>
+                     </div>
+                     <div class="recep-btn">
+                        <a href="#">READ MORE</a>
+                     </div>
+                  </div>
+               </div>
+               
+               <div class="col-lg-4 col-md-6">
+                  <div class="mixit-item">
+                     <div class="mixitup-image">
+                        <img src="assets/image/m-8.png" alt="image not found">
+                     </div>
+                     <div class="recep">
+                        <p>OTHER</p>
+                        <p>February 24, 2022</p>
+                     </div>
+                     <div class="recep-heading">
+                        <h5>Justo sagittis in <br> nulla ullamcorper</h5>
+                        <p>A feugiat orci tellus posuere. Consectetur habitant metus pretium sit. Sit sodales nullam eu aliquam...</p>
+                     </div>
+                     <div class="recep-btn">
+                        <a href="#">READ MORE</a>
+                     </div>
+                  </div>
+               </div>
+               
+               <div class="col-lg-4 col-md-6">
+                  <div class="mixit-item">
+                     <div class="mixitup-image">
+                        <img src="assets/image/m-9.png" alt="image not found">
+                     </div>
+                     <div class="recep">
+                        <p>OTHER</p>
+                        <p>February 24, 2022</p>
+                     </div>
+                     <div class="recep-heading">
+                        <h5>Purus id tellus <br> pulvinar ridiculus</h5>
+                        <p>A feugiat orci tellus posuere. Consectetur habitant metus pretium sit. Sit sodales nullam eu aliquam...</p>
+                     </div>
+                     <div class="recep-btn">
+                        <a href="#">READ MORE</a>
+                     </div>
+                  </div>
+               </div>
+
+
+               <div class="col-lg-12">
+                  <div class="purpus-btn">
+                     <a href="#">VIEW ALL RECIPES</a>
+                  </div>
+               </div>
+
+
+
+            </div>
+         </div>      
+    </section>    
+
+
+
+      <!-- Start Subscribe-area -->
+       <section class="subscribe-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="subscribe-heading">
+                     <h5>Let us become your Happy Place!</h5>
+                     <p>Sign up to recieve exclusive offers, delicious recipes, discounts and so much more!</p>
+                  </div>
+               </div>
+               <div class="col-12 p-0">
+                  
+                     <form action="">
+                        <div class="subscribe-form">
+                         <input type="email" placeholder="Your Email">
+                         <button type="submit">SUBSCRIBE <span><i class="fa-solid fa-angle-right"></i></span></button>
+                         </div>
+                     </form>
+                  
+               </div>
+            </div>
+         </div>
+      </section>     
+
+      <!-- End Subscribe-area -->
+
+      <!-- Start Footer-area -->
+      <footer class="footer-area">
+         <div class="footer-top-area">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-9 column-count-style">
+                     <div class="footer-menu footer-menu-1">
+                         <ul>
+                            <li><a href="#">Plant Based Meats</a></li>
+                            <li><a href="#">Fries</a></li>
+                            <li><a href="#">Sides</a></li>
+                            <li><a href="#">Seasonings</a></li>
+                            <li><a href="#">Drinks</a></li>
+                            <li><a href="#">Recipes</a></li>
+                            <li><a href="#">Cooking Tips</a></li>
+                            <li><a href="#">Where to Buy</a></li>
+                            <li><a href="#">Wholesale</a></li>
+                            <li><a href="#">Host a Popup</a></li>
+                         </ul>
+                     </div>
+                     <div class="footer-menu footer-menu-2">
+                         <ul>
+                            <li><a href="#">Rewards Program</a></li>
+                            <li><a href="#">Affiliate Program</a></li>
+                            <li><a href="#">Ambassador Program</a></li>
+                            <li><a href="#">My Account Login</a></li>
+                            <li><a href="#">Track and Order</a></li>
+                            <li><a href="#">Manage Subscriptions</a></li>
+                            <li><a href="#">FAQ’s</a></li>
+                            <li><a href="#">Contact Us</a></li>
+
+
+                         </ul>
+                     </div>
+                     <div class="footer-menu footer-menu-3">
+                         <ul>
+                            <li><a href="#">Request a Local Retailer</a></li>
+                            <li><a href="#">Refer a Friend</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms and Condition</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">CCPA Compliance</a></li>
+                         </ul>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="footer-social">
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-bottom-area">
+            <div class="container">
+               <div class="row justify-content-center ">
+                  <div class="col-lg-3"><div class="copy-write"><a href="#">© Greenios,  Inc. 202</a></div></div>
+                  <div class="col-lg-9 fotter-justify ">
+                     <div class="footer-bottom-menu">
+                        <ul>
+                           <li><a href="#">Contact Us</a></li>
+                           <li><a href="#">Wholesale</a></li>
+                           <li><a href="#">Terms & Conditions</a></li>
+                           <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>                      
+      <!-- End Footer-area -->
+
+
+
+
+
+      <script src="assets/js/jquery.js"></script>
+      <!-- preloder.js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <!-- counter-js -->
+      <script src="assets/js/jquery-1.7.1.min.js"></script>
+      <script src="assets/js/waypoints.js"></script>
+      <script src="assets/js/jquery.counterup.min.js"></script>
+      <!-- bootstrap.js -->
+      <script src="assets/js/bootstrap.min.js"></script>
+      <!-- popper-js -->
+      <script src="assets/js/popper.min.js"></script>
+      <!-- magnific.js -->
+      <script src="assets/js/jquery.magnific-popup.min.js"></script>
+      <!-- swiper.js -->
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+      <script src="assets/js/custom.js"></script>
+   </body>
+</html>

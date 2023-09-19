@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="icon" href="header-logo.jpg">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Popup</title>
+      <!-- favicon -->
+      <link rel="icon" href="assets/image/logo-1.png">
+      <!-- Poppins -->
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+      <!-- Inter-font -->
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+      <!-- magnific-popup -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+      <!-- swiper-slider -->
+      <link rel="stylesheet"   href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+      <!-- normalize-css -->
+      <link rel="stylesheet" href="assets/css/normalize.css">
+      <!-- fontawesome -->
+      <link rel="stylesheet" href="assets/css/all.min.css">
+      <!-- owl-carousel -->
+      <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+      <!-- bootstrap -->
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <!-- style-css -->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!-- responsive -->
+      <link rel="stylesheet" href="assets/css/responsive.css">
+   </head>
+   <body>
+
+
+   <!--pre_lodar -->
+   <div class="loder">
+         <div class="pl" id="preloader">
+            <svg class="pl__rings" viewBox="0 0 128 128" width="128px" height="128px">
+               <g fill="none" stroke-linecap="round" stroke-width="4">
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.3)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(180)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.3)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(180)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(180)">
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                  </g>
+               </g>
+            </svg>
+            <div class="pl__nucleus">
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+            </div>
+         </div>
+      </div>
+      <!-- end-preloder -->
+
+      
+      <!-- Startr header-area   -->
+       <header class="header-area">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-lg-5 p-0">
+                  <nav class="header-left-menu menu">
+                     <ul>
+                        <li><a href="shopping.html">SHOP</a></li>
+                        <li><a href="recipes.html">RECIPES</a></li>
+                        <li><a href="buy.html">WHERE TO BUY</a></li>
+                        <li><a href="community.html">Gut - Brain 101</a></li>
+                     </ul>
+                  </nav>
+               </div>
+               <div class="col-lg-2"><div class="logo"><a href="index.html"><img src="assets/image/logo-2.png" alt="logo not found"></a></div></div>
+               <div class="col-lg-5 p-0">
+                  <nav class="header-right-menu menu">
+                     <ul>
+                        <li><a href="rewards.html">REWARDS</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                        <li><a href="digest.html">MERCH</a></li>
+                        <li><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                        <li><a href="#"><i class="fa-regular fa-circle-user"></i></a></li>
+                        
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+         <header class="header-area responsive-header-area">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-6"><div class="logo"><a href="index.html"><img src="assets/image/logo-2.png" alt="logo not found"></a></div></div>
+               <div class="col-6">
+                  <div class="menu-bars">
+                     <i class="fa-solid fa-bars"></i>
+                  </div>
+               </div>
+            </div>
+            <div class="reponsive-menu-area">
+               <div class="row">
+                  <div class="x-mark"><i class="fa-solid fa-xmark"></i></div>
+               </div>
+            <div class="row align-items-center menu-slide-up">
+               <div class="col-lg-6 p-0">
+                  <nav class="header-left-menu menu">
+                     <ul>
+                        <li><a href="#">SHOP</a></li>
+                        <li><a href="#">RECIPES</a></li>
+                        <li><a href="#">WHERE TO BUY</a></li>
+                        <li><a href="#">Gut - Brain 101</a></li>
+                        <li><a href="#">REWARDS</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">POPUPS</a></li>
+                        <li><a href="#">MERCH</a></li>
+                     </ul>
+                     <div class="responsive-header-media-icon">
+                        <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                        <a href="#"><i class="fa-regular fa-circle-user"></i></a>
+                     </div>
+                  </nav>
+               </div>
+
+            </div>
+            </div>
+         </div>
+      </header>
+      <!-- End header-area -->
+      <!-- Start Banner-area -->
+      <section class="popup-banner-area">
+         <div class="container">
+            <div class="row align-items-end">
+               <div class="col-lg-5">
+                  <div class="popup-banner-content">
+                     <h1>Find a Greenios Popup Event Near You</h1>
+                     <p>Use the popup locator below</p>
+                     <div class="popup-btn">
+                        <a class="btn-2" href="#">LOCATE A POPUP</a>
+                        <a class="btn-1" href="#">VIEW POPUP MENU</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-7">
+                  <div class="popup-banner-image">
+                     <img src="assets/image/car.png" alt="image not found">
+                  </div>
+               </div>
+            </div>
+         </div>                                       
+      </section>
+
+      <!-- mapsicle-area -->
+      <section class="mapsicle-area">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d57655.834968117175!2d88.90304225!3d25.421887249999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1692592970048!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-4">
+                  <div class="upcoming-area">
+                     <div class="upcoming-slider">
+                  <div class="swiper upcoming">
+                     <h6>12 Results</h6>
+                     <div class="upcoming-event">
+                        <p>UPCOMING EVENTS</p>
+                     </div>
+                      <div class="swiper-wrapper">
+
+                     <!--Start swiper-slide -->
+
+                        <div class="swiper-slide">
+                           <div class="items-contain-store">
+
+                              <div class="items-store">
+                                  <div class="store-item">
+                                       <h6>Kroger Store</h6>
+                                       <p>14344 Memorial Dr<br>Houston, TX 77079</p>
+                                       <div class="product-store">
+                                          <p>0.7 mi <span> &nbsp;|&nbsp;</span> 14 Products</p>
+                                       </div>
+                                       <div class="store-icons">
+                                          <i class="fa-solid fa-phone-volume"></i>
+                                          <span>(123) 456-7890</span>
+                                       </div>
+                                  </div>
+                                  <div class="click-stor"><span><i class="fa-solid fa-angle-right"></i></span></div>
+                              </div>
+
+                              
+                           </div>
+
+
+                           <div class="items-contain-store">
+
+                              <div class="items-store items-store-active">
+                                  <div class="store-item">
+                                       <h6>Randalls Food Market</h6>
+                                       <p>14344 Memorial Dr<br>Houston, TX 77079</p>
+                                       <div class="product-store">
+                                          <p>0.7 mi <span> &nbsp;|&nbsp;</span> 14 Products</p>
+                                       </div>
+                                       <div class="store-icons">
+                                          <i class="fa-solid fa-phone-volume"></i>
+                                          <span>(123) 456-7890</span>
+                                       </div>
+                                  </div>
+                                  <div class="click-stor"><span><i class="fa-solid fa-angle-right"></i></span></div>
+                              </div>
+
+
+                           </div>
+
+
+                           <div class="items-contain-store">
+
+                              <div class="items-store">
+                                  <div class="store-item">
+                                       <h6>Kroger Store</h6>
+                                       <p>14344 Memorial Dr<br>Houston, TX 77079</p>
+                                       <div class="product-store">
+                                          <p>0.7 mi <span> &nbsp;|&nbsp;</span> 14 Products</p>
+                                       </div>
+                                       <div class="store-icons">
+                                          <i class="fa-solid fa-phone-volume"></i>
+                                          <span>(123) 456-7890</span>
+                                       </div>
+                                  </div>
+                                  <div class="click-stor"><span><i class="fa-solid fa-angle-right"></i></span></div>
+                              </div>
+
+                              
+                           </div>
+
+                           <div class="items-contain-store">
+
+                              <div class="items-store">
+                                  <div class="store-item">
+                                       <h6>Randalls Food Market</h6>
+                                       <p>14344 Memorial Dr<br>Houston, TX 77079</p>
+                                       <div class="product-store">
+                                          <p>0.7 mi <span> &nbsp;|&nbsp;</span> 14 Products</p>
+                                       </div>
+                                       <div class="store-icons">
+                                          <i class="fa-solid fa-phone-volume"></i>
+                                          <span>(123) 456-7890</span>
+                                       </div>
+                                  </div>
+                                  <div class="click-stor"><span><i class="fa-solid fa-angle-right"></i></span></div>
+                              </div>
+
+                              
+                           </div>
+                        </div>
+                        <!-- End-swiper-slider -->
+
+                     <!--Start swiper-slide -->
+
+                        <div class="swiper-slide">
+                           <div class="items-contain-store">
+
+                              <div class="items-store">
+                                  <div class="store-item">
+                                       <h6>Kroger Store</h6>
+                                       <p>14344 Memorial Dr<br>Houston, TX 77079</p>
+                                       <div class="product-store">
+                                          <p>0.7 mi <span> &nbsp;|&nbsp;</span> 14 Products</p>
+                                       </div>
+                                       <div class="store-icons">
+                                          <i class="fa-solid fa-phone-volume"></i>
+                                          <span>(123) 456-7890</span>
+                                       </div>
+                                  </div>
+                                  <div class="click-stor"><span><i class="fa-solid fa-angle-right"></i></span></div>
+                              </div>
+                              
+                           </div>
+
+
+                           <div class="items-contain-store">
+
+                              <div class="items-store items-store-active">
+                                  <div class="store-item">
+                                       <h6>Randalls Food Market</h6>
+                                       <p>14344 Memorial Dr<br>Houston, TX 77079</p>
+                                       <div class="product-store">
+                                          <p>0.7 mi <span> &nbsp;|&nbsp;</span> 14 Products</p>
+                                       </div>
+                                       <div class="store-icons">
+                                          <i class="fa-solid fa-phone-volume"></i>
+                                          <span>(123) 456-7890</span>
+                                       </div>
+                                  </div>
+                                  <div class="click-stor"><span><i class="fa-solid fa-angle-right"></i></span></div>
+                              </div>
+
+
+                           </div>
+
+
+                           <div class="items-contain-store">
+
+                              <div class="items-store">
+                                  <div class="store-item">
+                                       <h6>Kroger Store</h6>
+                                       <p>14344 Memorial Dr<br>Houston, TX 77079</p>
+                                       <div class="product-store">
+                                          <p>0.7 mi <span> &nbsp;|&nbsp;</span> 14 Products</p>
+                                       </div>
+                                       <div class="store-icons">
+                                          <i class="fa-solid fa-phone-volume"></i>
+                                          <span>(123) 456-7890</span>
+                                       </div>
+                                  </div>
+                                  <div class="click-stor"><span><i class="fa-solid fa-angle-right"></i></span></div>
+                              </div>
+
+                              
+                           </div>
+
+                           <div class="items-contain-store">
+
+                              <div class="items-store">
+                                  <div class="store-item">
+                                       <h6>Randalls Food Market</h6>
+                                       <p>14344 Memorial Dr<br>Houston, TX 77079</p>
+                                       <div class="product-store">
+                                          <p>0.7 mi <span> &nbsp;|&nbsp;</span> 14 Products</p>
+                                       </div>
+                                       <div class="store-icons">
+                                          <i class="fa-solid fa-phone-volume"></i>
+                                          <span>(123) 456-7890</span>
+                                       </div>
+                                  </div>
+                                  <div class="click-stor"><span><i class="fa-solid fa-angle-right"></i></span></div>
+                              </div>
+
+                              
+                           </div>
+                        </div>
+                        <!-- End-swiper-slider -->
+
+
+                     <!--Start swiper-slide -->
+
+                        <div class="swiper-slide">
+                           <div class="items-contain-store">
+
+                              <div class="items-store">
+                                  <div class="store-item">
+                                       <h6>Kroger Store</h6>
+                                       <p>14344 Memorial Dr<br>Houston, TX 77079</p>
+                                       <div class="product-store">
+                                          <p>0.7 mi <span> &nbsp;|&nbsp;</span> 14 Products</p>
+                                       </div>
+                                       <div class="store-icons">
+                                          <i class="fa-solid fa-phone-volume"></i>
+                                          <span>(123) 456-7890</span>
+                                       </div>
+                                  </div>
+                                  <div class="click-stor"><span><i class="fa-solid fa-angle-right"></i></span></div>
+                              </div>
+                              
+                           </div>
+
+
+                           <div class="items-contain-store">
+
+                              <div class="items-store items-store-active">
+                                  <div class="store-item">
+                                       <h6>Randalls Food Market</h6>
+                                       <p>14344 Memorial Dr<br>Houston, TX 77079</p>
+                                       <div class="product-store">
+                                          <p>0.7 mi <span> &nbsp;|&nbsp;</span> 14 Products</p>
+                                       </div>
+                                       <div class="store-icons">
+                                          <i class="fa-solid fa-phone-volume"></i>
+                                          <span>(123) 456-7890</span>
+                                       </div>
+                                  </div>
+                                  <div class="click-stor"><span><i class="fa-solid fa-angle-right"></i></span></div>
+                              </div>
+
+
+                           </div>
+
+
+                           <div class="items-contain-store">
+
+                              <div class="items-store">
+                                  <div class="store-item">
+                                       <h6>Kroger Store</h6>
+                                       <p>14344 Memorial Dr<br>Houston, TX 77079</p>
+                                       <div class="product-store">
+                                          <p>0.7 mi <span> &nbsp;|&nbsp;</span> 14 Products</p>
+                                       </div>
+                                       <div class="store-icons">
+                                          <i class="fa-solid fa-phone-volume"></i>
+                                          <span>(123) 456-7890</span>
+                                       </div>
+                                  </div>
+                                  <div class="click-stor"><span><i class="fa-solid fa-angle-right"></i></span></div>
+                              </div>
+
+                              
+                           </div>
+
+                           <div class="items-contain-store">
+
+                              <div class="items-store">
+                                  <div class="store-item">
+                                       <h6>Randalls Food Market</h6>
+                                       <p>14344 Memorial Dr<br>Houston, TX 77079</p>
+                                       <div class="product-store">
+                                          <p>0.7 mi <span> &nbsp;|&nbsp;</span> 14 Products</p>
+                                       </div>
+                                       <div class="store-icons">
+                                          <i class="fa-solid fa-phone-volume"></i>
+                                          <span>(123) 456-7890</span>
+                                       </div>
+                                  </div>
+                                  <div class="click-stor"><span><i class="fa-solid fa-angle-right"></i></span></div>
+                              </div>
+
+                              
+                           </div>
+                        </div>
+                        <!-- End-swiper-slider -->
+
+
+                     <!--Start swiper-slide -->
+
+                        <div class="swiper-slide">
+                           <div class="items-contain-store">
+
+                              <div class="items-store">
+                                  <div class="store-item">
+                                       <h6>Kroger Store</h6>
+                                       <p>14344 Memorial Dr<br>Houston, TX 77079</p>
+                                       <div class="product-store">
+                                          <p>0.7 mi <span> &nbsp;|&nbsp;</span> 14 Products</p>
+                                       </div>
+                                       <div class="store-icons">
+                                          <i class="fa-solid fa-phone-volume"></i>
+                                          <span>(123) 456-7890</span>
+                                       </div>
+                                  </div>
+                                  <div class="click-stor"><span><i class="fa-solid fa-angle-right"></i></span></div>
+                              </div>
+                              
+                           </div>
+
+
+                           <div class="items-contain-store">
+
+                              <div class="items-store items-store-active">
+                                  <div class="store-item">
+                                       <h6>Randalls Food Market</h6>
+                                       <p>14344 Memorial Dr<br>Houston, TX 77079</p>
+                                       <div class="product-store">
+                                          <p>0.7 mi <span> &nbsp;|&nbsp;</span> 14 Products</p>
+                                       </div>
+                                       <div class="store-icons">
+                                          <i class="fa-solid fa-phone-volume"></i>
+                                          <span>(123) 456-7890</span>
+                                       </div>
+                                  </div>
+                                  <div class="click-stor"><span><i class="fa-solid fa-angle-right"></i></span></div>
+                              </div>
+
+
+                           </div>
+
+
+                           <div class="items-contain-store">
+
+                              <div class="items-store">
+                                  <div class="store-item">
+                                       <h6>Kroger Store</h6>
+                                       <p>14344 Memorial Dr<br>Houston, TX 77079</p>
+                                       <div class="product-store">
+                                          <p>0.7 mi <span> &nbsp;|&nbsp;</span> 14 Products</p>
+                                       </div>
+                                       <div class="store-icons">
+                                          <i class="fa-solid fa-phone-volume"></i>
+                                          <span>(123) 456-7890</span>
+                                       </div>
+                                  </div>
+                                  <div class="click-stor"><span><i class="fa-solid fa-angle-right"></i></span></div>
+                              </div>
+
+                              
+                           </div>
+
+                           <div class="items-contain-store">
+
+                              <div class="items-store">
+                                  <div class="store-item">
+                                       <h6>Randalls Food Market</h6>
+                                       <p>14344 Memorial Dr<br>Houston, TX 77079</p>
+                                       <div class="product-store">
+                                          <p>0.7 mi <span> &nbsp;|&nbsp;</span> 14 Products</p>
+                                       </div>
+                                       <div class="store-icons">
+                                          <i class="fa-solid fa-phone-volume"></i>
+                                          <span>(123) 456-7890</span>
+                                       </div>
+                                  </div>
+                                  <div class="click-stor"><span><i class="fa-solid fa-angle-right"></i></span></div>
+                              </div>
+
+                              
+                           </div>
+                        </div>
+                        <!-- End-swiper-slider -->
+
+
+
+
+
+
+
+                      </div>
+                      <div class="swiper-button-next"></div>
+                      <div class="swiper-button-prev"></div>
+                      <div class="swiper-pagination"></div>
+                    </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-8">
+                  <div class="select-date">
+                     <div class="date-inner-content">
+                         <div class="date-btn"><a href="#">SELECT A DATE</a></div>
+                        <p>Houston, TX 77079</p>
+                        <div class="date-btn"> <a href="#">FIND</a></div>                       
+                     </div>
+
+                  </div>
+                  <div class="food-areas">
+                   <div class="food-market-area">
+                        <div class="food-image">
+                           <img src="assets/image/po-hover.png" alt="image not found">
+                        </div>
+                        <div class="market-title">
+                           <div class="store-item">
+                                 <h6>Randalls Food Market</h6>
+                                 <p>14344 Memorial Dr<br>Houston, TX 77079</p>
+                                 <div class="product-store">
+                                    <p>0.7 mi <span> &nbsp;|&nbsp;</span> 14 Products</p>
+                                 </div>
+                                 <div class="store-icons">
+                                    <i class="fa-solid fa-phone-volume"></i>
+                                    <span>(123) 456-7890</span>
+                                 </div>
+                            </div>
+                            <div class="event-button-area">
+                               <p><i class="fa-solid fa-calendar-plus"></i>20 February 2022</p>
+                               <div class="event-btn">
+                                  <a class="btn-2" href="#">ATTEND EVENT</a>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="food-market-slider">
+                           <div class="swiper inner-slider">
+                              <h6>Menu on The Event</h6>
+                               <div class="swiper-wrapper">
+
+
+
+                                 <div class="swiper-slide">
+                                    <div class="inner-food-menus">
+                                       <div class="inner-image">
+                                          <img src="assets/image/menu-img.png" alt="image not found">
+                                       </div>
+                                       <p>Prebiotic Veggie Burger Patties</p>
+                                       <a class="btn-2" href="#">PRE-ORDER NOW</a>                                       
+                                    </div>
+                                 </div>
+
+
+
+                                 <div class="swiper-slide">
+                                    <div class="inner-food-menus">
+                                       <div class="inner-image">
+                                          <img src="assets/image/menu-img-1.png" alt="image not found">
+                                       </div>
+                                       <p>Carrot Dogs</p>
+                                       <a class="btn-2" href="#">PRE-ORDER NOW</a>                                       
+                                    </div>
+                                 </div>
+
+
+                                 <div class="swiper-slide">
+                                    <div class="inner-food-menus">
+                                       <div class="inner-image">
+                                          <img src="assets/image/menu-img.png" alt="image not found">
+                                       </div>
+                                       <p>Prebiotic Veggie Burger Patties</p>
+                                       <a class="btn-2" href="#">PRE-ORDER NOW</a>                                       
+                                    </div>
+                                 </div>
+
+
+
+                                 <div class="swiper-slide">
+                                    <div class="inner-food-menus">
+                                       <div class="inner-image">
+                                          <img src="assets/image/menu-img-1.png" alt="image not found">
+                                       </div>
+                                       <p>Carrot Dogs</p>
+                                       <a class="btn-2" href="#">PRE-ORDER NOW</a>                                       
+                                    </div>
+                                 </div>
+
+
+                                 <div class="swiper-slide">
+                                    <div class="inner-food-menus">
+                                       <div class="inner-image">
+                                          <img src="assets/image/menu-img-1.png" alt="image not found">
+                                       </div>
+                                       <p>Carrot Dogs</p>
+                                       <a class="btn-2" href="#">PRE-ORDER NOW</a>                                       
+                                    </div>
+                                 </div>
+
+
+                                 <div class="swiper-slide">
+                                    <div class="inner-food-menus">
+                                       <div class="inner-image">
+                                          <img src="assets/image/menu-img-1.png" alt="image not found">
+                                       </div>
+                                       <p>Carrot Dogs</p>
+                                       <a class="btn-2" href="#">PRE-ORDER NOW</a>                                       
+                                    </div>
+                                 </div>
+
+
+                                  
+                               </div>
+                                 <div class="swiper-button-next"></div>
+                                 <div class="swiper-button-prev"></div>
+                           </div>
+                        </div>               
+                   </div>
+               </div>
+            </div>
+         </div>                  
+      </section>
+      <!-- mapsicle-area -->
+      <!-- End Banner-area -->
+      <!-- Start popup-area -->
+      <section class="popup-area">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-6 p-0">
+                  <div class="popup-city-image">
+                     <img src="assets/image/circleincar.png" alt="image not found">
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="popup-container popup-right-container">
+                     <h2>Host a Popup in your city</h2>
+                     <p>Host a Greenios Popup in your city and earn extra cash and happy eating!</p>
+                     <div class="commission-area">
+                        <ul>
+
+                           <li><a href="#"><img src="assets/image/check-icon.png" alt="image not found"><span>You earn 10% commission on all orders</span></a></li>
+                           <li><a href="#"><img src="assets/image/check-icon.png" alt="image not found"><span>10 free food vouchers valued at $22 each</span></a></li>
+                           <li><a href="#"><img src="assets/image/check-icon.png" alt="image not found"><span>Outdoor seating</span></a></li>
+                           <li><a href="#"><img src="assets/image/check-icon.png" alt="image not found"><span>Photo booth</span></a></li>
+                           <li><a href="#"><img src="assets/image/check-icon.png" alt="image not found"><span>Greenios party DJ</span></a></li>
+                        </ul>
+                     </div>
+                     <div class="commission-btn">
+                        <a class="btn-1" href="#">HOST A POPUP</a>
+                     </div>
+                  </div>
+                  </div>
+               </div>
+            </div>            
+         </div>
+      </section>
+      <!-- End popup-area -->
+      <!-- Start Partners-area -->
+      <section class="partners-area">
+         <div class="container">
+            <div class="partners">
+               <h2>Eat happily ever after at one of our vegetarian restaurant partners.</h2>
+               <div class="company-group-image">
+                  <div class="partnars-logo partners-logos-1"><img src="assets/image/company-1.png" alt="image not found"></div>
+                  <div class="partnars-logo partners-logos-2"><img src="assets/image/company-2.png" alt="image not found"></div>
+                  <div class="partnars-logo partners-logos-3"><img src="assets/image/company-3.png" alt="image not found"></div>
+                  <div class="partnars-logo partners-logos-4"><img src="assets/image/company-4.png" alt="image not found"></div>
+                  <div class="partnars-logo partners-logos-5"><img src="assets/image/company-5.png" alt="image not found"></div>
+                  <div class="partnars-logo partners-logos-6"><img src="assets/image/company-6.png" alt="image not found"></div>
+                  <div class="partnars-logo partners-logos-7"><img src="assets/image/company-7.png" alt="image not found"></div>
+                  <div class="partnars-logo partners-logos-8"><img src="assets/image/company-8.png" alt="image not found"></div>
+                  <div class="partnars-logo partners-logos-9"><img src="assets/image/company-9.png" alt="image not found"></div>
+                  <div class="partnars-logo partners-logos-10"><img src="assets/image/company-10.png" alt="image not found"></div>
+
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End Partners-area -->
+  
+      <!-- Start Subscribe-area -->
+       <section class="subscribe-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="subscribe-heading">
+                     <h5>Let us become your Happy Place!</h5>
+                     <p>Sign up to recieve exclusive offers, delicious recipes, discounts and so much more!</p>
+                  </div>
+               </div>
+               <div class="col-12 p-0">
+                  
+                     <form action="">
+                        <div class="subscribe-form">
+                         <input type="email" placeholder="Your Email">
+                         <button type="submit">SUBSCRIBE <span><i class="fa-solid fa-angle-right"></i></span></button>
+                         </div>
+                     </form>
+                  
+               </div>
+            </div>
+         </div>
+      </section>      
+      <!-- End Subscribe-area -->
+      <!-- new section -->
+      <section class="new">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- new section -->
+      <!-- Start Footer-area -->
+      <footer class="footer-area">
+         <div class="footer-top-area">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-9 column-count-style">
+                     <div class="footer-menu footer-menu-1">
+                         <ul>
+                            <li><a href="#">Plant Based Meats</a></li>
+                            <li><a href="#">Fries</a></li>
+                            <li><a href="#">Sides</a></li>
+                            <li><a href="#">Seasonings</a></li>
+                            <li><a href="#">Drinks</a></li>
+                            <li><a href="#">Recipes</a></li>
+                            <li><a href="#">Cooking Tips</a></li>
+                            <li><a href="#">Where to Buy</a></li>
+                            <li><a href="#">Wholesale</a></li>
+                            <li><a href="#">Host a Popup</a></li>
+                         </ul>
+                     </div>
+                     <div class="footer-menu footer-menu-2">
+                         <ul>
+                            <li><a href="#">Rewards Program</a></li>
+                            <li><a href="#">Affiliate Program</a></li>
+                            <li><a href="#">Ambassador Program</a></li>
+                            <li><a href="#">My Account Login</a></li>
+                            <li><a href="#">Track and Order</a></li>
+                            <li><a href="#">Manage Subscriptions</a></li>
+                            <li><a href="#">FAQ’s</a></li>
+                            <li><a href="#">Contact Us</a></li>
+
+
+                         </ul>
+                     </div>
+                     <div class="footer-menu footer-menu-3">
+                         <ul>
+                            <li><a href="#">Request a Local Retailer</a></li>
+                            <li><a href="#">Refer a Friend</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms and Condition</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">CCPA Compliance</a></li>
+                         </ul>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="footer-social">
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-bottom-area">
+            <div class="container">
+               <div class="row justify-content-center ">
+                  <div class="col-lg-3"><div class="copy-write"><a href="#">© Greenios,  Inc. 202</a></div></div>
+                  <div class="col-lg-9 fotter-justify ">
+                     <div class="footer-bottom-menu">
+                        <ul>
+                           <li><a href="#">Contact Us</a></li>
+                           <li><a href="#">Wholesale</a></li>
+                           <li><a href="#">Terms & Conditions</a></li>
+                           <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>                      
+      <!-- End Footer-area -->
+
+
+
+
+
+      <script src="assets/js/jquery.js"></script>
+      <!-- preloder.js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <!-- counter-js -->
+      <script src="assets/js/jquery-1.7.1.min.js"></script>
+      <script src="assets/js/waypoints.js"></script>
+      <script src="assets/js/jquery.counterup.min.js"></script>
+      <!-- bootstrap.js -->
+      <script src="assets/js/bootstrap.min.js"></script>
+      <!-- popper-js -->
+      <script src="assets/js/popper.min.js"></script>
+      <!-- magnific.js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+      <!-- swiper.js -->
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+      <!-- owl-carousel -->
+      <script src="assets/js/owl.carousel.min.js"></script>
+      <script src="assets/js/custom.js"></script>
+   </body>
+</html>

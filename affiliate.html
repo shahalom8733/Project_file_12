@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="icon" href="header-logo.jpg">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Affiliate</title>
+      <!-- favicon -->
+      <link rel="icon" href="assets/image/logo-1.png">
+      <!-- Poppins -->
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+      <!-- Inter-font -->
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+      <!-- magnific-popup -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+      <!-- swiper-slider -->
+      <link rel="stylesheet"   href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+      <!-- normalize-css -->
+      <link rel="stylesheet" href="assets/css/normalize.css">
+      <!-- fontawesome -->
+      <link rel="stylesheet" href="assets/css/all.min.css">
+      <!-- bootstrap -->
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <!-- style-css -->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!-- responsive -->
+      <link rel="stylesheet" href="assets/css/responsive.css">
+   </head>
+   <body>
+      <!--pre_lodar -->
+        <div class="loder">
+         <div class="pl" id="preloader">
+            <svg class="pl__rings" viewBox="0 0 128 128" width="128px" height="128px">
+               <g fill="none" stroke-linecap="round" stroke-width="4">
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.3)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(180)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.3)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(180)">
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+                     <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(0)">
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                  </g>
+                  <g class="pl__ring" transform="rotate(180)">
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                     <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+                  </g>
+               </g>
+            </svg>
+            <div class="pl__nucleus">
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+               <div class="pl__nucleus-particle"></div>
+            </div>
+         </div>
+         </div>
+      <!-- end-preloder -->
+
+      <!-- Startr header-area   -->
+      <header class="header-area">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-lg-5 p-0">
+                  <nav class="header-left-menu menu">
+                     <ul>
+                        <li><a href="shopping.html">SHOP</a></li>
+                        <li><a href="recipes.html">RECIPES</a></li>
+                        <li><a href="affiliate.html">affiliate</a></li>
+                        <li><a href="community.html">Gut - Brain 101</a></li>
+                     </ul>
+                  </nav>
+               </div>
+               <div class="col-lg-2">
+                  <div class="logo"><a href="index.html"><img src="assets/image/logo-2.png" alt="logo not found"></a></div>
+               </div>
+               <div class="col-lg-5 p-0">
+                  <nav class="header-right-menu menu">
+                     <ul>
+                        <li><a href="rewards.html">REWARDS</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                        <li><a href="faq.html">faq</a></li>
+                        <li><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                        <li><a href="#"><i class="fa-regular fa-circle-user"></i></a></li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+      <header class="header-area responsive-header-area">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-6">
+                  <div class="logo"><a href="index.html"><img src="assets/image/logo-2.png" alt="logo not found"></a></div>
+               </div>
+               <div class="col-6">
+                  <div class="menu-bars">
+                     <i class="fa-solid fa-bars"></i>
+                  </div>
+               </div>
+            </div>
+            <div class="reponsive-menu-area">
+               <div class="row">
+                  <div class="x-mark"><i class="fa-solid fa-xmark"></i></div>
+               </div>
+               <div class="row align-items-center menu-slide-up">
+                  <div class="col-lg-6 p-0">
+                     <nav class="header-left-menu menu">
+                        <ul>
+                           <li><a href="#">SHOP</a></li>
+                           <li><a href="#">RECIPES</a></li>
+                           <li><a href="#">WHERE TO BUY</a></li>
+                           <li><a href="#">Gut - Brain 101</a></li>
+                           <li><a href="#">REWARDS</a></li>
+                           <li><a href="#">ABOUT</a></li>
+                           <li><a href="#">POPUPS</a></li>
+                           <li><a href="#">MERCH</a></li>
+                        </ul>
+                        <div class="responsive-header-media-icon">
+                           <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                           <a href="#"><i class="fa-regular fa-circle-user"></i></a>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- End header-area -->
+
+  
+      <!-- start affiliate-area -->
+       <div class="affiliate-area">
+          <div class="container">
+             <div class="row">
+                <div class="col-12 affiliate-background-area">
+                  <div class="responsive-affiliate-banner">
+                     <img src="assets/image/affiliate-background.png" alt="image not found">
+                  </div>
+                  <div class="affiliate-banners">
+                     
+                     <div class="about-banner">
+                        <div class="banner-title"><p>Spread Happiness!</p></div>
+                        <h5>Become a Greenios affiliate to unlock rewards, compensation, and other exclusive perks. </h5>
+                        <div class="about-banner-btn">
+                           <a href="#">Become a Greenios Affiliate</a>
+                        </div>
+                     </div>
+                  </div>
+                </div>
+             </div>
+          </div>
+       </div>        
+      <!-- end affiliate-area -->
+      <!-- start got-fance-area -->
+      <div class="got-fance-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="got-fance-heading">
+                     <h2>Got Fans?</h2>
+                     <p>If you have an established community or audience, we want to patner with you! We will reward you for any Greenios member you share through your dedicated link.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row gx-5 gy-5 justify-content-center">
+               <div class="col-lg-4 col-md-6">
+                   <div class="fance-image">
+                      <img src="assets/image/fance-1.png" alt="image not found">
+                      <p>Spread The Word</p>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                   <div class="fance-image">
+                      <img src="assets/image/fance-2.png" alt="image not found">
+                      <p>Earn Commission</p>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                   <div class="fance-image">
+                      <img src="assets/image/fance-3.png" alt="image not found">
+                      <p>Grow Your Audience</p>
+                   </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="got-fance-btn">
+                     <a class="btn-1" href="#">Join and Earn Today</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>                                    
+      <!-- end got-fance-area -->
+   
+      <div class="affiliate-question-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="affiliate-question-heading">
+                     <h2>Frequently Asked Question</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="affiliate-accordion">
+               <div class="accordion" id="accordionExample">
+                 <div class="accordion-item">
+                   <h5 class="accordion-header">
+                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                       What is a Greenios Affiliate?
+                     </button>
+                   </h5>
+                   <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                     <div class="accordion-body">
+                       <span>If you’re passionate about delicious food, healthy nutrition, and the latest technology, Vitamix is interested in partnering with you. We seek affiliates whose values match our own: Family, Customers, Quality, Integrity, Teamwork, Passion, and Authenticity.</span>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="accordion-item">
+                   <h5 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                       What do you get when you become a Greenios Affiliate?
+                     </button>
+                   </h5>
+                   <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                     <div class="accordion-body">
+                                              <span>If you’re passionate about delicious food, healthy nutrition, and the latest technology, Vitamix is interested in partnering with you. We seek affiliates whose values match our own: Family, Customers, Quality, Integrity, Teamwork, Passion, and Authenticity.</span>
+                     </div>
+                   </div>
+                 </div>
+
+
+                 <div class="accordion-item">
+                   <h5 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Who can become a Greenios Affiliate?
+                     </button>
+                   </h5>
+                   <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                     <div class="accordion-body">
+                                              <span>If you’re passionate about delicious food, healthy nutrition, and the latest technology, Vitamix is interested in partnering with you. We seek affiliates whose values match our own: Family, Customers, Quality, Integrity, Teamwork, Passion, and Authenticity.</span>
+                     </div>
+                   </div>
+                 </div>
+
+                 
+                 <div class="accordion-item">
+                   <h5 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                      How do I get paid for my sales?
+                     </button>
+                   </h5>
+                   <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                     <div class="accordion-body">
+                                              <span>If you’re passionate about delicious food, healthy nutrition, and the latest technology, Vitamix is interested in partnering with you. We seek affiliates whose values match our own: Family, Customers, Quality, Integrity, Teamwork, Passion, and Authenticity.</span>
+                     </div>
+                   </div>
+                 </div>
+
+                 
+                 <div class="accordion-item">
+                   <h5 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                       What is the commission structure?
+                     </button>
+                   </h5>
+                   <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                     <div class="accordion-body">
+                                              <span>If you’re passionate about delicious food, healthy nutrition, and the latest technology, Vitamix is interested in partnering with you. We seek affiliates whose values match our own: Family, Customers, Quality, Integrity, Teamwork, Passion, and Authenticity.</span>
+                     </div>
+                   </div>
+                 </div>
+
+
+
+
+
+               </div>
+               </div>
+            </div>
+
+
+            <div class="view-all-faq">
+               <a href="#"><span>View All FAQ</span><i class="fa-solid fa-arrow-right"></i></a>
+            </div>      
+         </div>
+      </div>
+
+
+
+      <!-- Start-partner-area -->
+      <div class="our-partner-area">
+         <div class="container">
+            <div class="row ">
+               <div class="col-lg-12">
+                  <div class="our-partner-heading">
+                     <h2>Meet Our Partners</h2>
+                     <p>These are some of the amazing partners we work ithvery day to share the bnefits of the Greenios membership :</p>
+                  </div>
+
+               </div>
+            </div>
+            <div class="row gx-5 gy-5">
+               <div class="col-lg-4 col-md-6">
+                   <div class="our-partners">
+                      <div class="partners-image">
+                         <img src="assets/image/our-partner-1.png" alt="image not found">
+                      </div>
+                      <h6>Whole 30</h6>
+                      <h5>Melissa Hartwig</h5>
+                      <p>Sapien, nulla sit semper egestas aliquam urna, facilisi vulputate dictum. Habitant est egestas turpis ut dolor. Gravida et commodo purus vel turpis risus eget lobortis porttitor est.</p>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                   <div class="our-partners">
+                      <div class="partners-image">
+                         <img src="assets/image/our-partner-2.png" alt="image not found">
+                      </div>
+                      <h6>Primal Kitchen</h6>
+                      <h5>Mark Sisson</h5>
+                      <p>Elementum purus consequat, phasellus morbi porta egestas rutrum adipiscing. Cursus pharetra adipiscing sapien adipiscing aliquam vitae molestie.</p>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                   <div class="our-partners">
+                      <div class="partners-image">
+                         <img src="assets/image/our-partner-3.png" alt="image not found">
+                      </div>
+                      <h6>Nom Nom Paleo</h6>
+                      <h5>Michelle Tam</h5>
+                      <p>Gravida lorem volutpat orci lacus nullam. Auctor consectetur massa adipiscing volutpat venenatis. Eu sed elementum dignissim arcu, consectetur feugiat phasellus vitae. </p>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                   <div class="our-partners">
+                      <div class="partners-image">
+                         <img src="assets/image/our-partner-4.png" alt="image not found">
+                      </div>
+                      <h6>FlavCity</h6>
+                      <h5>Bobby Parrish</h5>
+                      <p>Maecenas vivamus faucibus malesuada tellus velit. Habitant pretium, pharetra felis tincidunt eget dolor integer nisi eget.</p>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                   <div class="our-partners">
+                      <div class="partners-image">
+                         <img src="assets/image/our-partner-5.png" alt="image not found">
+                      </div>
+                      <h6>Wellness Expert</h6>
+                      <h5>Dr. Mona Vand</h5>
+                      <p>Et massa amet scelerisque turpis. Risus sapien, purus orci diam. Placerat libero, mi, elementum ac amet aliquet. Viverra pellentesque tristique suspendisse sem duis enim.</p>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                   <div class="our-partners">
+                      <div class="partners-image">
+                         <img src="assets/image/our-partner-6.png" alt="image not found">
+                      </div>
+                      <h6>Heille Institute</h6>
+                      <h5>Jordan Ken</h5>
+                      <p>Maecenas lobortis purus lacinia euismod tincidunt neque tellus, integer amet volutpat velit fermentum dictumst tempor dictum lectus</p>
+                   </div>
+               </div>
+            </div>
+         </div>
+      </div>                                 
+      <!-- end-partner-area -->
+       
+       <div class="join-happy-area">
+          <div class="container">
+             <div class="row">
+                <div class="container">
+                  <div class="row">
+                   <div class="col-lg-6">
+
+                     <div class="join-happy-heading">
+                        <h5>Spread Happiness</h5>
+                        <p>We’re excited to collaborate with levels of partners, whether you have a small-but-mighty audience or a bigger fan base. Sign up today, and let’s get started!</p>
+                        <div class="join-happy-btn">
+                           <a class="btn-2" href="#">Join and earn Today</a>
+                        </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-6 join-happy-distance">
+                     <div class="join-happy-background">
+
+                        <div class="join-happy-image">
+                           <img src="assets/image/join-1.png" alt="image not found">
+                        </div>
+                        <div class="join-happy-image">
+                           <img src="assets/image/join-2.png" alt="image not found">
+                        </div>
+                        <div class="join-happy-image">
+                           <img src="assets/image/join-3.png" alt="image not found">
+                        </div>
+                        <div class="join-happy-image">
+                           <img src="assets/image/join-4.png" alt="image not found">
+                        </div>
+
+                     </div>
+                   </div>
+                  </div>
+
+                </div>
+             </div>
+          </div>
+       </div>
+
+       <!-- Start Additional-area -->
+       <section class="additional-area">
+          <div class="container">
+             <div class="row">
+                <div class="col-lg-12">
+                   <div class="additional-heading">
+                      <h5>Additional Greenios Opportunities</h5>
+                      <p>If you are interested in partnering with Greenios but unsure if the Affiliate Program is the right fit for you, consider the following Greenios opportunities.</p>
+                   </div>
+                </div>
+             </div>
+             <div class="row">
+                <div class="col-lg-12">
+                  <div class="additional-content">
+                        <h6>Greenios Sales Representative</h6>
+                        <p>We are always looking for lively, talented, and dynamic salespeople to highlight the benefits of a Greenios lifestyle. Our product demonstrations are still our most effective sales tool, and we’re always looking to grow our rep base with people who truly love the brand and helping people make positive changes in their lives. (Please note that you cannot be both a Sales Representative/Demonstrator and an Affiliate. <a href="#">Learn More</a> </p>
+                  </div>  
+                  <div class="additional-content">
+                        <h6>Greenios Sales Representative</h6>
+                        <p>If you work for an organization that is passionate about health and wellness, and want to offer a unique and very valuable new perk to your employees at no cost to you? Become one of our Corporate Wellness Partners. To discuss how to incorporate Greenios into your workplace wellness program, please contact Corporate Accounts at 866.278.5772 or<a href="#">corpaccounts@vitamix.com</a></p>
+                        <a class="btn-3" href="#">View Greenios Career Opportunities</a>
+                  </div>  
+
+                </div>
+             </div>
+          </div>
+       </section>                               
+       <!-- End Additional-area -->
+                         
+      <!-- Start Subscribe-area -->
+      <section class="subscribe-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="subscribe-heading">
+                     <h5>Let us become your Happy Place!</h5>
+                     <p>Sign up to recieve exclusive offers, delicious recipes, discounts and so much more!</p>
+                  </div>
+               </div>
+               <div class="col-12 p-0">
+                  <form action="">
+                     <div class="subscribe-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit">SUBSCRIBE <span><i class="fa-solid fa-angle-right"></i></span></button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End Subscribe-area -->
+      <!-- new section -->
+      <section class="new">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- new section -->
+      <!-- Start Footer-area -->
+      <footer class="footer-area">
+         <div class="footer-top-area">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-9 column-count-style">
+                     <div class="footer-menu footer-menu-1">
+                        <ul>
+                           <li><a href="#">Plant Based Meats</a></li>
+                           <li><a href="#">Fries</a></li>
+                           <li><a href="#">Sides</a></li>
+                           <li><a href="#">Seasonings</a></li>
+                           <li><a href="#">Drinks</a></li>
+                           <li><a href="#">Recipes</a></li>
+                           <li><a href="#">Cooking Tips</a></li>
+                           <li><a href="#">Where to Buy</a></li>
+                           <li><a href="#">Wholesale</a></li>
+                           <li><a href="#">Host a Popup</a></li>
+                        </ul>
+                     </div>
+                     <div class="footer-menu footer-menu-2">
+                        <ul>
+                           <li><a href="#">Rewards Program</a></li>
+                           <li><a href="#">Affiliate Program</a></li>
+                           <li><a href="#">Ambassador Program</a></li>
+                           <li><a href="#">My Account Login</a></li>
+                           <li><a href="#">Track and Order</a></li>
+                           <li><a href="#">Manage Subscriptions</a></li>
+                           <li><a href="#">FAQ’s</a></li>
+                           <li><a href="#">Contact Us</a></li>
+                        </ul>
+                     </div>
+                     <div class="footer-menu footer-menu-3">
+                        <ul>
+                           <li><a href="#">Request a Local Retailer</a></li>
+                           <li><a href="#">Refer a Friend</a></li>
+                           <li><a href="#">Press</a></li>
+                           <li><a href="#">Privacy Policy</a></li>
+                           <li><a href="#">Terms and Condition</a></li>
+                           <li><a href="#">Terms of Service</a></li>
+                           <li><a href="#">CCPA Compliance</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="footer-social">
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-bottom-area">
+            <div class="container">
+               <div class="row justify-content-center ">
+                  <div class="col-lg-3">
+                     <div class="copy-write"><a href="#">© Greenios,  Inc. 202</a></div>
+                  </div>
+                  <div class="col-lg-9 fotter-justify ">
+                     <div class="footer-bottom-menu">
+                        <ul>
+                           <li><a href="#">Contact Us</a></li>
+                           <li><a href="#">Wholesale</a></li>
+                           <li><a href="#">Terms & Conditions</a></li>
+                           <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- End Footer-area -->
+      <script src="assets/js/jquery.js"></script>
+      <!-- preloder.js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <!-- counter-js -->
+      <script src="assets/js/jquery-1.7.1.min.js"></script>
+      <script src="assets/js/waypoints.js"></script>
+      <script src="assets/js/jquery.counterup.min.js"></script>
+      <!-- bootstrap.js -->
+      <script src="assets/js/bootstrap.min.js"></script>
+      <!-- popper-js -->
+      <script src="assets/js/popper.min.js"></script>
+      <!-- magnific.js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+      <!-- mixitup -->
+      <script src="assets/js/mixitup.min.js"></script>
+      <script src="assets/js/first/custom.js"></script>
+      <script src="assets/js/2nd/custom.js"></script>
+      <!-- swiper.js -->
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+      <script src="assets/js/custom.js"></script>
+   </body>
+</html>
